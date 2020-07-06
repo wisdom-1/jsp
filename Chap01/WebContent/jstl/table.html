@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>table.html</title>
+</head>
+<body>
+
+<h3> table 태그</h3>
+<ul>
+<li> HTML 에서 표를 출력할 때 사용한다.</li>
+<li> table, tr, th, td 태그로 구성된다.</li>
+<li> table : 테이블 전체를 의미하는 태그 </li>
+<li> tr (table row) : 테이블 행 하나를 의미하는 태그</li>
+<li> th (table header) : 테이블 제목 칸을 의미하는 태그 </li>
+<li> td (table data) : 테이블 내용 칸을 의미하는 태그 </li>
+
+<hr>
+
+<table border ="1">	<!-- 쌍따옴표, 홑따옴표 상관 없다. -->
+<tr>
+	<th colspan ="3">비상연락망</th> <!--  colspan=3 : 해당 칸은 3 칸 (column)을 차지한다. -->
+</tr>
+
+<tr>
+<th>이름</th>
+<th>전화번호</th>
+<th>이메일</th>
+
+</tr>
+
+<tr>
+	<td>김철수</td>
+	<td rowspan="2">02-0000-0000</td><!--  rowspan="2" : 2 줄(row)을 차지한다. -->
+	<td rowspan="2">aaaa@naver.com</td>
+</tr>
+
+
+<tr>
+	<td>김영희</td>
+</tr>
+
+
+<tr>
+	<td>김영수</td>
+	<td>02-0000-0000</td>
+	<td>aaaa@naver.com</td>
+</tr>
+
+<tr>
+	<td>김철수</td>
+	<td>02-0000-0000</td>
+	<td>aaaa@naver.com</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr></tr>
+
+
+</table>
+
+
+ 
+</ul>
+
+</body>
+</html>
