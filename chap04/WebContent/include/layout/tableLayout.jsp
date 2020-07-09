@@ -4,40 +4,31 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>table로 레이아웃 설정</title>
+<title>Layout</title>
 </head>
 <body>
 
-<table width="80%" height ="800" border="1">
+<table style="margin:auto;" width="80%" border="1">
 <tr>
 	<td colspan="2" height="80">
-		<jsp:include page="./module/title.jsp"></jsp:include>
+		<jsp:include page="./module/title.jsp"/>
 	</td>
 </tr>
 <tr>
-	<td width="200" height="500">  
-	<jsp:include page="./module/nav.jsp"></jsp:include> </td>
-	<td>CONTENT
-	<!--  include를 이용해 DB에서 가져온 정보를 띄어보세요 -->
-	<jsp:include page="/login/login.jsp"></jsp:include>
-	<jsp:include page="./module/indexdb.jsp"></jsp:include>
+	<td width="100" height="500">
+		<jsp:include page="./module/nav.jsp"/>
+	</td>
+	<td>
+		<!-- include를 이용해 DB에서 가져온 정보를 띄워보세요 -->
+		CONTENT
 	</td>
 </tr>
-
 <tr>
 	<td colspan="2" height="80">
-	<jsp:include page="./module/foot.jsp"></jsp:include>
-	BOTTOM
+		<jsp:include page="./module/foot.jsp"/>
 	</td>
-
-</tr>	
-	
-
-
-
+</tr>
 </table>
-
-
 
 </body>
 </html>

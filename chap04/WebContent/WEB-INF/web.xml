@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	
+	<context-param>
+		<description>이 파리미터에 대한 설명 (디버그 모드를 켜는 파라미터 입니다)</description>
+		<param-name>debugMode</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	
+</web-app>
